@@ -33,7 +33,7 @@ private: vi st, A;
 	int right(int p) {return (p<<1) + 1;}
 	
 	// Definir operaciones aquí RMQ - RSQ
-	int op_min(int p1, int p2){ return (A[p1] <= A[p2]) ? A[p1] : A[p2]; }
+	int op_min(int p1, int p2){ return min(p1,p2) }
 	int op_sum(int p1, int p2) { return p1 + p2; }
 
 	void build(int p, int L, int R){
