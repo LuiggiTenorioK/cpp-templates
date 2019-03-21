@@ -3,11 +3,13 @@ using namespace std;
 #define all(v) (v).begin(),(v).end()
 #define pb(x) push_back((x))
 #define REP(i,x,y) for(long long (i)=(x);(i)<(y);(i)++)
+#define PER(i,x,y) for(long long (i)=(x);(i)>=(y);(i)--)
 #define REPIT(it,A) for(typeof(A.begin()) it = (A.begin()); it!=A.end();it++)
 #define sqr(x) ((x)*(x))
 #define mp(x,y) make_pair((x),(y))
 #define mt(x,y,z) mp(mp((x),(y)),z)
 #define fastio ios_base::sync_with_stdio(0);cin.tie(0); 
+#define trace(x) cout << #x << " = " << x << endl
 //#define NDEBUG 1
 #define fst first
 #define snd second
